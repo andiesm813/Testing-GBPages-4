@@ -1,0 +1,39 @@
+@for (item of financialGlobalElectricityDemand; track item) {
+  <igx-card class="card">
+    <igx-card-media height="400px" class="media-content">
+      <img src="/assets/DSC_2520.JPG" class="image" />
+    </igx-card-media>
+    <igx-card-header>
+      <h3 igxCardHeaderTitle>
+        Flopi
+      </h3>
+      <h5 igxCardHeaderSubtitle>
+        Dog
+      </h5>
+    </igx-card-header>
+    <igx-card-actions class="actions-content">
+      <ng-container igxStart>
+        <button igxButton="flat" type="button" igxRipple class="button">
+          GIVE A HUG
+        </button>
+      </ng-container>
+      <ng-container igxEnd>
+        <button igxRipple igxIconButton="flat">
+          <igx-icon>
+            favorite
+          </igx-icon>
+        </button>
+        <button igxRipple igxIconButton="flat">
+          <igx-icon>
+            bookmark
+          </igx-icon>
+        </button>
+        <button igxRipple igxIconButton="flat">
+          <igx-icon>
+            share
+          </igx-icon>
+        </button>
+      </ng-container>
+    </igx-card-actions>
+  </igx-card>
+}

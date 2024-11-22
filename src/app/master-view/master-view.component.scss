@@ -1,0 +1,32 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+}
+.card {
+  height: max-content;
+  min-width: 320px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.media-content {
+  min-height: 400px;
+  max-height: 400px;
+}
+.actions-content {
+  min-width: 50px;
+  min-height: 40px;
+}
+.image {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.button {
+  --ig-size: var(--ig-size-medium);
+  height: max-content;
+}
